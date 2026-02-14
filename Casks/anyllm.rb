@@ -1,6 +1,6 @@
 cask "anyllm" do
     version "0.1.0"
-    sha256 arm: "3fa92f59a081b9f86ab47a6de0ebb36016e0dd00f1e07062ada0d86862e51aff",
+    sha256 arm:   "3fa92f59a081b9f86ab47a6de0ebb36016e0dd00f1e07062ada0d86862e51aff",
            intel: "b721fb00b140f752755b16a1ba6c5bb34dddbf1344f498f020945759d9ffd4dc"
 
     on_arm do
