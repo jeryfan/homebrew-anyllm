@@ -1,7 +1,7 @@
 cask "omnikit" do
-  version "0.2.0"
-  sha256 arm:   "311e409c2bfd6489d1f9e78f2e9b16761c6e5ebc09e133631dd911740328ddf0",
-         intel: "8730758ae40240b1b609f0451facff9d43e379e7764861c618b2fa0a83b47693"
+  version "0.1.0"
+  sha256 arm:   "726f2153fd6a95b64ef75a36f1c606c969f8056202ed30f42a340e56228e0f37",
+         intel: "d086599d21a50a74263cab40b851a331db4186fbce2f15026c20fb0e74ec7de6"
 
   on_arm do
     url "https://github.com/jeryfan/omnikit/releases/download/v#{version}/OmniKit_#{version}_aarch64.dmg"
@@ -11,7 +11,7 @@ cask "omnikit" do
   end
 
   name "OmniKit"
-  desc "LLM API gateway desktop app"
+  desc "A multi-functional toolkit desktop app"
   homepage "https://github.com/jeryfan/omnikit"
 
   app "OmniKit.app"
