@@ -1,7 +1,7 @@
 cask "omnikit" do
   version "0.2.0"
-  sha256 arm:   "c2ad9dabcd2e3bfc01cc1f6e652df37c728ac47d9d9e3ead38c08a551074da9c",
-         intel: "6c56b27fd985f78ac27520a514e4b13542d43d9f7bb5d87ede9d4ad418fb81c1"
+  sha256 arm:   "976bf5deb3fcc73881817300f2af1c07ce32b1a163198142d532aeb49b5d8b58",
+         intel: "80d7201caff261def98f8cc2dad8b989b512bfa83a1c03bba0eea323c8a383cc"
 
   on_arm do
     url "https://github.com/jeryfan/omnikit/releases/download/v#{version}/OmniKit_#{version}_aarch64.dmg"
